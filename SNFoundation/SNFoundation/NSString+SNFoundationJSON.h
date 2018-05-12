@@ -10,9 +10,9 @@
 
 @interface NSString (SNFoundationJSON)
 
-+ (NSString *)jsonStringWithDictionary:(NSDictionary *)dictionary;
-+ (NSString *)jsonStringWithArray:(NSArray *)array;
-+ (NSString *)jsonStringWithString:(NSString *) string;
-+ (NSString *)jsonStringWithObject:(id) object;
++ (NSString *)sn_jsonStringWithDictionary:(NSDictionary *)dictionary;
++ (NSString *)sn_jsonStringWithArray:(NSArray *)array;
++ (NSString *)sn_jsonStringWithString:(NSString *)string;
++ (NSString *)sn_jsonStringWithObject:(id)object;
 
 @end
