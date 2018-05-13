@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-	
+//	pod trunk push SNFoundation.podspec --verbose --allow-warnings --use-libraries
 	
 	NSLog(@"%@",[NSString sn_jsonStringWithObject:@{@"haha":@"oooooooo"}]);
 	
