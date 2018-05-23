@@ -24,8 +24,20 @@
 	NSLog(@"%@",[NSString sn_jsonStringWithObject:@{@"haha":@"oooooooo"}]);
 	
     
+    
+    sn_replaceMethodFromNew(self.class, @selector(aaa), @selector(bbb));
+    
+    [self aaa];
 }
 
+
+- (void)aaa {
+    NSLog(@"aaa");
+}
+
+- (void)bbb {
+    NSLog(@"bbb");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

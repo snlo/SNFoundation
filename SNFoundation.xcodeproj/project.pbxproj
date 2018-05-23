@@ -19,6 +19,7 @@
 		9832B5F520A1904100BDC97C /* NSString+SNFoundationHASH.m in Sources */ = {isa = PBXBuildFile; fileRef = 9832B5F220A1904100BDC97C /* NSString+SNFoundationHASH.m */; };
 		9832B5F820A1941400BDC97C /* NSObject+SNFoundationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9832B5F620A1941300BDC97C /* NSObject+SNFoundationModel.m */; };
 		9832B5FB20A196B700BDC97C /* SNFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9832B5FA20A196B700BDC97C /* SNFoundation.m */; };
+		983CE4F120B5122E007987FD /* NSObject+SNFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 983CE4F020B5122E007987FD /* NSObject+SNFoundation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		9832B5F720A1941300BDC97C /* NSObject+SNFoundationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SNFoundationModel.h"; sourceTree = "<group>"; };
 		9832B5F920A196B700BDC97C /* SNFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNFoundation.h; sourceTree = "<group>"; };
 		9832B5FA20A196B700BDC97C /* SNFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNFoundation.m; sourceTree = "<group>"; };
+		983CE4EF20B5122E007987FD /* NSObject+SNFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SNFoundation.h"; sourceTree = "<group>"; };
+		983CE4F020B5122E007987FD /* NSObject+SNFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SNFoundation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,8 @@
 				9832B5F020A1904100BDC97C /* NSString+SNFoundationJSON.m */,
 				9832B5F920A196B700BDC97C /* SNFoundation.h */,
 				9832B5FA20A196B700BDC97C /* SNFoundation.m */,
+				983CE4EF20B5122E007987FD /* NSObject+SNFoundation.h */,
+				983CE4F020B5122E007987FD /* NSObject+SNFoundation.m */,
 			);
 			path = SNFoundation;
 			sourceTree = "<group>";
@@ -295,6 +300,7 @@
 				9832B5F520A1904100BDC97C /* NSString+SNFoundationHASH.m in Sources */,
 				9832B5BF20A18DDD00BDC97C /* ViewController.m in Sources */,
 				9832B5CA20A18DDD00BDC97C /* main.m in Sources */,
+				983CE4F120B5122E007987FD /* NSObject+SNFoundation.m in Sources */,
 				9832B5F820A1941400BDC97C /* NSObject+SNFoundationModel.m in Sources */,
 				9832B5BC20A18DDC00BDC97C /* AppDelegate.m in Sources */,
 			);
