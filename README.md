@@ -32,4 +32,4 @@ iOS 8.0 或者更高版本
 
 ## License
 
-SNMediatorKit is released under the MIT license. See [LICENSE](https://github.com/snlo/SNFoundation/blob/master/LICENSE) for details.
+SNFoundation is released under the MIT license. See [LICENSE](https://github.com/snlo/SNFoundation/blob/master/LICENSE) for details.
